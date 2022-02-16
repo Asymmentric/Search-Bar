@@ -1,0 +1,14 @@
+# .env file
+
+PORT=""
+DB_HOST=""
+DB_USER=""
+DB_PASSWORD=""
+DB_NAME=""
+DB_TABLE=""
+
+
+//create table DB_TABLE (colBeerId int primary key auto_increment,colBeerName varchar(255) not null)
+
+colBeerId=""
+colBeerName=""
