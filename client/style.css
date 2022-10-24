@@ -33,20 +33,29 @@ input{
 }
 
 #newBeerBtn{
-    border: 1px outset rgba(255, 255, 255, .8);
-    cursor: pointer;
+    border:none;
     /* display: none;    */
     padding-left:1em;
     padding-right: 1em;
-    -webkit-box-shadow: 0px 0px 4px 0px #000000; 
     box-shadow: 0px 0px 1px 0px #000000;
-    background: #E9EFED;
-    background: -moz-linear-gradient(left, #E9EFED 0%, #DFEBEC 50%, #EBF0F1 100%);
-    background: -webkit-linear-gradient(left, #E9EFED 0%, #DFEBEC 50%, #EBF0F1 100%);
-    background: linear-gradient(to right, #E9EFED 0%, #DFEBEC 50%, #EBF0F1 100%);
+    background-color:blue;
+    height: 100px;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    color: white;
+    border-radius: 5px;
+    margin-left: 5px;
+   
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
     
     
 } 
+#newBeer{
+    padding: 6px;
+    border-radius: 5px;
+   
+}
 
 #newBeerBtn:hover{
     border: 1px solid blue;
